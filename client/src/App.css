@@ -1,0 +1,40 @@
+.app {
+  padding: 2%;
+}
+
+.appButton {
+  min-width: 40%;
+  margin: 0 1%;
+  font-weight: 700 !important;
+  min-height: 40px !important;
+  color: #003b95;
+  border-color: #003b95;
+  border-radius: 3px;
+}
+
+.appPrimaryButton {
+  margin: 0 1%;
+  min-width: 40%;
+  font-weight: 700 !important;
+  min-height: 40px !important;
+  color: #fff;
+  background: #003b95;
+  border-color: #003b95;
+  border-radius: 3px;
+  margin-right: 0;
+}
+
+.appButton:focus, .appButton:hover {
+  color: #003b95;
+  border-color: #003b95; 
+}
+
+.appPrimaryButton:hover {
+  color: #fff !important;
+  background: #1d1d1d !important;
+  border-color: #1d1d1d !important;
+}
+
+.formWidth {
+  min-width: 30%;
+}

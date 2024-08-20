@@ -1,0 +1,39 @@
+.text-right {
+    text-align: right;
+}
+
+.addUserBtn {
+    min-width: 10% !important;
+}
+
+.d-flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tableEditIcon {
+    color: #003b95;
+    font-size: 18px;
+}
+
+.tableDeleteIcon {
+    color: darkred;
+    font-size: 18px;
+}
+
+/* -------------------------------------------- user-form ---------------------------------------- */
+
+.back-btn {
+    cursor: pointer;
+    color: #003b95;
+}
+
+.addUserForm {
+    text-align: left !important;
+}
+
+.addUserForm .ant-col .ant-form-item-label {
+    width: 35%;
+    text-align: left;
+}
