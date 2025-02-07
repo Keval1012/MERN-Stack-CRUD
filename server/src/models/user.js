@@ -15,8 +15,8 @@ const userSchema = new mongoose.Schema({
     },
     password: {
         type: String,
-        required: [true, , 'Password is required']
+        required: [true, 'Password is required']
     }
 }, { timestamps: true });
 
-export default mongoose.model('User', userSchema, 'mern-stack');
+export default mongoose.model('User', userSchema, 'users');
